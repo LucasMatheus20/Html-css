@@ -1,0 +1,92 @@
+header{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bolder;
+font-size: 2em;
+font-style: normal;
+text-align: center;
+color: darkblue;
+border-style: inset;
+border-radius: 10px;
+box-shadow: 3px 3px 3px black;
+width: 600px;
+margin: 20px auto 20px auto;
+background-color: white;
+background-image: linear-gradient(to right, lightblue, white);
+
+
+
+
+
+}
+main{
+    width: 600px;
+    margin-top: 20px;
+    border-style: inset;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-align: justify;
+    margin: 20px auto 20px auto;
+    background-color: white;
+    
+}
+main > h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, lightblue, white);
+    border-radius: 5px;
+    color: darkblue;
+    box-shadow: 3px;
+
+}
+main > p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+
+
+
+}
+main > ul{
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+
+
+}
+body{
+    background-image: linear-gradient(to bottom, lightblue, white);
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1em;
+    color: darkblue;
+    text-align: center;
+    height: 25px;
+    width: 600px;
+    margin: 20px auto 20px auto;
+
+    padding-top: 10px;
+
+
+
+
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: inset;
+
+    box-shadow: 3px 3px 3px black;
+    background-image: linear-gradient(to right, lightblue, white)
+
+
+}
+    
+ 

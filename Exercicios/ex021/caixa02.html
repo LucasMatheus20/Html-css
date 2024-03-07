@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+
+            background-color:aqua;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav{
+            background-color: black;
+            padding: 3px;
+            margin: 3px;  
+            box-shadow: 2px 2px 4px black; 
+            border-radius: 10px;
+            text-align: center; 
+            
+
+     }
+     nav > a{
+        color: white;
+        margin-right: 35px;
+        text-decoration: none;
+       
+
+     }
+
+
+     nav > a:hover{
+        color: darkgreen;
+        text-decoration: underline;
+
+
+     }
+
+        
+
+        main{
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+            border-radius: 10px;
+
+
+        }
+
+        footer{
+            background-color: black;
+            padding: 4px;
+            margin: 0px;
+            color: white;
+            text-align: center;
+            box-shadow: 2px 2px 2px black;
+            border-radius: 13px;
+        }
+        #noticias{
+            background-color: lightgray;
+            
+
+        }
+        article{
+            background-color: beige;
+            
+
+        }
+        aside{
+            background-color: lightgreen;
+        }
+          footer > p{
+            margin: 0px;
+
+          
+          }
+
+
+          .bola{
+            height: 100px;
+            width: 100px;
+            margin-top: 25px;
+             border-radius: 50px;
+             background-color: white;
+          }
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site.</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat totam, optio sapiente magni amet voluptatibus perspiciatis dolore natus expedita. Soluta consequuntur a alias, odit laborum impedit vel asperiores debitis.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam pariatur debitis, ad provident autem alias quam dicta culpa fugiat iusto quod, vitae eius a maiores odit. Aliquam, ex itaque.</p>
+                <aside>
+                    escrito por fulano da silva.
+
+                </aside>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>exemplo de footer / rodapé.</p>
+
+    </footer>
+
+
+    <div class="bola"></div>
+    
+</body>
+</html>

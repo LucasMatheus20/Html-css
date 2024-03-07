@@ -1,0 +1,25 @@
+
+  
+    
+
+
+@font-face {
+    font-family: 'Fresh';
+    src: url(Fresh\ Market\ Trial.otf) format('opentype');
+}
+
+h1{
+    font-family: 
+    Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-family: 'Fresh';
+    font-weight: lighter;
+    font-style: normal;
+    
+
+}
+body{
+    font-family: 'Fresh', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image: linear-gradient(to top , pink, red );
+   background-attachment: fixed;
+}

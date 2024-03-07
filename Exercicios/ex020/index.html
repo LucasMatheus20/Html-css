@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+       body{
+        font-family: 'Courier New', Courier, monospace;
+        
+       }
+       div > p{
+        display: none;
+       }
+       div:hover>p{
+        display: block;
+        color:honeydew;
+        background-color: blue;
+        width: 300px;
+
+       }
+     div:hover{
+        color: blue;
+     }
+     #titulo{
+        font-size: 2.5em;
+        font-weight: bold;
+        color: brown;
+    
+     }
+     .prg01{
+        font-size: 1.5em;
+        font-weight: 600;
+
+     }
+     .prg02{
+        font-size: 1.5em;
+        font-weight: 600;
+     }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">exemplo de hover</h1>
+    <p class="prg01">passe o mouse no texto abaixo.</p>
+
+    <div>
+        passe o mouse aqui.
+        <p>TEXTO ESCONDIDO.</p>
+    </div>
+    <p class="prg02">Fim do exemplo.</p>
+
+    
+    
+</body>
+</html>
