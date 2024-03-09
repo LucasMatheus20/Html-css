@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        .quadrado{
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 80px;
+            height:80px;
+            background-color: lightblue;
+            margin: auto;
+            
+
+        
+        }
+        #q1{
+            background-color: blue;
+        }
+        #q2{
+            background-image: linear-gradient(to bottom, black,white);
+        }
+        #q3{
+            background-image: url("imagens/pattern003.png");
+        }
+        body{
+            background-image: url("imagens/wallpaper006.jpg");
+        }
+        main{
+            border: 1px solid ;
+            min-width: 325px;
+            max-width: 500px;
+            height: 500px;
+            margin: 20px auto 20px auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 0px 5px black;
+            top: 25%;
+            left: 33%;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: center;
+            justify-content: center;
+           
+            
+            
+
+        }
+        main h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 1.5em;
+
+        }
+        main p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+
+        }
+        main .blocos{
+            padding-top: 20px;
+            position: absolute;
+           
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>testando imagens de fundo.</h1>
+        </header>
+        <p>aprendendo a usar as propriedades do background image.</p>
+
+        <div class="blocos">
+            <div class="quadrado" id="q1"></div>
+            <div class="quadrado" id="q2"></div>
+            <div class="quadrado" id="q3"></div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
