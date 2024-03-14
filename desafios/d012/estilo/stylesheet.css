@@ -4,21 +4,38 @@
     margin: 0px;
     padding: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+:root{
+
+    --font1:Sriracha;
+    --font2:
+   
+    
+}
+
 html body{
 
     background-color: darkcyan;
     min-height: 100vh;
+    font-family: var(--font1);
+    
 }
     
 header{
     background-color: black;
     color: white;
     text-align: center;
+    
 
 }
 header h1{
     padding-top: 50px;
     font-variant: small-caps;
+  
 
 }
 header p{
