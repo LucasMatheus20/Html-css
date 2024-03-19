@@ -32,7 +32,7 @@ header{
     color: white;
     text-align: center;
     font-family: var(--font2);
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     
 
 }
@@ -69,6 +69,8 @@ text-decoration: underline;
  .imagem{
     background-color: rgb(61, 54, 54);
     color: white;
+    box-shadow: inset 6px 6px 11px 0px black;
+    background-attachment: fixed;
  }
  section{
     padding-top: 10vh;
@@ -80,8 +82,29 @@ text-decoration: underline;
  }
 
  .imagem p{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.477);
     display: inline-block;
     padding: 10px;
+    background-attachment: fixed;
+    
 
+ }
+ section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+
+
+
+
+ }
+ #img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+ }
+ section p{
+ border-radius: 10px;
  }
