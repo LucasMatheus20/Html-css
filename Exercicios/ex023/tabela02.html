@@ -23,15 +23,30 @@
             color: white;
             text-shadow: 0px 0px 4px black;
         }
+        caption{
+            font-size: 1.2em;
+            background-color: gray;
+            padding: 10px;
+
+        }
+       tbody > tr:nth-child(odd){
+        background-color: lightslategray;
+       
+       }
+
+        
     </style>
 </head>
 <body>
     <h1>Trabalhando com tabelas grandes.</h1>
     <table>
+        <caption>
+            Populaçao de alguns estados do brasil
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>população</th>
+                <th scope="col">Estado</th>
+                <th scope="col">população</th>
             </tr>
         </thead>
         <tbody>
@@ -47,9 +62,6 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td>17 264 943</td>
-            </tr>
-            <tr>
-                
             </tr>
 
         </tbody>
