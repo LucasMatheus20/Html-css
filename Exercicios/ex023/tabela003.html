@@ -33,6 +33,22 @@
             border-collapse: collapse;
             margin:auto;
         }
+        .tb02{
+            padding: 20px;
+        }
+        #tablediv01{
+            padding: 20px;
+            margin: 20px;
+        }
+        .td1{
+            text-align: center;
+        }
+        .td2{
+            text-align: center;
+        }
+        .td3{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -58,6 +74,41 @@
 
         </tr>
     </table>
+    <div id="tablediv01">
+        <table class="tb02">
+            <tr>
+                <td class="td1" colspan="3">a</td>
+                
+            </tr>
+            <tr>
+        
+                <td class="td2" rowspan="5">d</td>
+                <td>e</td>
+                <td>f</td>
+            </tr>
+            <tr>
+               
+            </tr>
+            
+            <td>h</td>
+            <td>i</td>
+
+            <tr>
+                
+            
+            <td>k</td>
+            <td>l</td>
+
+            </tr>
+
+            <tr>
+
+            
+            <td colspan="2" class="td3">n</td>
+            
+            </tr>
+        </table>
+    </div>
     
 </body>
 </html>
