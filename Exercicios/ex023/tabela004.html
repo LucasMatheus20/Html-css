@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+    
         body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -25,6 +26,10 @@
 
 
         }
+        caption{
+            background-image: linear-gradient(to right, rgba(0, 0, 255, 0.353), white);
+            border-radius: 5px;
+        }
 
 
     </style>
@@ -37,14 +42,14 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr >
-                <th rowspan="3">
+                <th rowspan="3" scope="row">
                     Mulheres
                 </th>
                 <td>Ana Maria santos</td>
@@ -68,7 +73,7 @@
             </tr>
 
             <tr>
-                <th rowspan="3">
+                <th rowspan="3" scope="row">
                     Homens
                 </th>
                 <td>Bruno Mendonça</td>
