@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de formulario</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            padding: 10px;
+            background-color: rgba(0, 255, 255, 0.329);
+            
+
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: bisque;
+        }
+
+        header h1{
+            font-size: 1.3em;
+        }
+
+        nav a{
+            margin-left: 70px;
+        }
+        main.conteudo{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+           
+        }
+        .conteiner{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .conteiner{
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 300px;
+            width: 300px;
+            position: relative;
+        }
+        form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .buttom-n{
+            border: 1px solid black;
+            margin: 10px;
+
+        }
+        .buttom-sn{
+           border: 1px solid black;
+           margin: 10px;
+        }
+        .button input{
+            padding: 4px;
+            width: 100px;
+            margin: auto;
+            display: block;
+            box-shadow: 2px 2px 1px black;
+        }
+
+
+      
+       </style>
+</head>
+<body>
+    <header>
+    
+        <h1>Sua logo tipo</h1>    
+        <nav>
+            <a href="">item</a>
+            <a href="">item</a>
+            <a href="">item</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <div class="conteiner">
+            <form action="form.php" method="post">
+                <div class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" class="buttom-n">
+                </div>
+                <div class="sobrenome">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" class="buttom-sn">
+                </div>
+                <div class="button">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Formulario basico
+        </p>
+    </footer>
+    
+</body>
+</html>

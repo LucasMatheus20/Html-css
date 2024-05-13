@@ -4,82 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Formulario</title>
-    <style>
-        *{  
-            box-sizing: border-box;
-        }
-        html,body{
-            height: 100vh;
-            width: 100vw;
-            
-
-        }
-        body{
-            background-color: beige;
-            position: relative;
-        }
-        main{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .conteiner{
-            border: 1px solid transparent;
-            width: 250px;
-            height: 300px;
-            position: relative;
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 1px 1px 6px black;
-        }
-        .conteiner h1{
-            text-transform: uppercase;
-            font-family:  sans-serif;
-            font-weight: 500;
-            margin: 5px;
-            padding: 5px;
-            font-size: 1em;
-        }
-        form{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
-        }
-        .botton-confirm{
-            border-radius: 6px;
-            padding: 4px;
-            border: 1px solid black;
-            
-
-        }
-        .botton-confirm:hover{
-            transition-duration: .3s;
-            background-color: rgba(0, 255, 255, 0.458);
-
-        }
-        .box-sobrenome{
-            border: 1px solid black;
-            margin-top: 5px;
-            border-radius: 5px;
-
-        }
-        .box-nome{
-            border: 1px solid black;
-            margin-top: 5px;
-            border-radius: 5px;
-        }
-        p{
-            font-family: Arial, Helvetica, sans-serif;
-            
-        }
-
-
-     
-
-    </style>
 </head>
 <body>
     <header>
@@ -95,9 +19,10 @@
             </h1>
             
             <form>
-                <p>Nome: <input class="box-nome" type="text" name="Nome" id="Nome"></p>
-                <p>Sobrenome: <input class="box-sobrenome" type="text" name="Sobrenome" id="Sobrenome"></p>
-                <input class="botton-confirm" type="submit" value="Confirmar">
+                <label for="">Nome:</label>
+                <input type="text" name="Nome" id="Nome"> <br> <br>
+                <label for="">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
             </form>
         </section>
     </main>
