@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+  
 
 </head>
 <body>
-    <h1>formulario</h1>
-    <form action="form.php" method="post" autocomplete="off">
-        <div class="nome">
-            <label for="Nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
-        </div> <br>
-        <div class="sobrenome">
-            <label for="Sobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="sobrenome">
-        </div>
-        <div class="confirm">
-            <input type="submit" value="Confirmar">
-        </div>
-    </form>
+  <h1> Formulario simples</h1>
+  <form action="cadastro.php" method="post" autocomplete="on">
+
+    <p><label for="usuario">Usuario:</label>
+    <input type="text" name="usuario" id="usuario" autocomplete="username" placeholder="Nome de usuario" size="15" minlength="20" maxlength="25"></p>
+    <p>
+        <label for="senha">
+            Senha:
+        </label>
+        <input type="password" name="senha" id="Senha" autocomplete="current-password" placeholder="No minimo 8 caracteres !" minlength="8" maxlength="12">
+    </p>
+
+  </form>
     
 </body>
 </html>
