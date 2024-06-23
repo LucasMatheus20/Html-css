@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
+<body onresize="redimensionar()">
     <header>
         <h1>Exemplo de Site </h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
@@ -35,6 +36,15 @@
     </main>
 
     <script>
+
+        function redimensionar(){
+            if (window.innerWidth >= 768)
+            nav.style.display = 'block'
+            else {
+                nav.style.display = 'none'
+            }
+        }
+
         function clickMenu(){
             if (nav.style.display == 'block'){
                 nav.style.display = 'none'
